@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 17:07+0000\n"
-"PO-Revision-Date: 2026-04-28 17:09\n"
+"POT-Creation-Date: 2026-04-30 12:53+0000\n"
+"PO-Revision-Date: 2026-04-30 12:55\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Latin)\n"
 "Language: sr_CS\n"
@@ -1339,8 +1339,8 @@ msgid "workflow runs"
 msgstr "pokretanje tokova rada"
 
 #: documents/serialisers.py:463 documents/serialisers.py:815
-#: documents/serialisers.py:2681 documents/views.py:2264
-#: documents/views.py:2333 paperless_mail/serialisers.py:155
+#: documents/serialisers.py:2681 documents/views.py:2321
+#: documents/views.py:2390 paperless_mail/serialisers.py:155
 msgid "Insufficient permissions."
 msgstr "Nedovoljne dozvole."
 
@@ -1379,7 +1379,7 @@ msgstr "Otkrivena je nevažeća promenljiva."
 msgid "Duplicate document identifiers are not allowed."
 msgstr "Duplirani identifikatori dokumenata nisu dozvoljeni."
 
-#: documents/serialisers.py:2767 documents/views.py:4158
+#: documents/serialisers.py:2767 documents/views.py:4215
 #, python-format
 msgid "Documents not found: %(ids)s"
 msgstr "Dokumenti nisu pronađeni: %(ids)s"
@@ -1635,32 +1635,32 @@ msgstr "Šema URI-ja '{parts.scheme}' nije dozvoljena. Dozvoljene šeme {', '.jo
 msgid "Unable to parse URI {value}"
 msgstr "Nije moguće analizirati URI {value}"
 
-#: documents/views.py:1333
+#: documents/views.py:1431
 msgid "Invalid AI configuration."
 msgstr ""
 
-#: documents/views.py:2144
+#: documents/views.py:2201
 msgid "Specify only one of text, title_search, query, or more_like_id."
 msgstr "Navedite samo jedno od sledećeg: text, title_search, query ili more_like_id."
 
-#: documents/views.py:2257 documents/views.py:2330
+#: documents/views.py:2314 documents/views.py:2387
 msgid "Invalid more_like_id"
 msgstr "Nevažeći more_like_id"
 
-#: documents/views.py:4170
+#: documents/views.py:4227
 #, python-format
 msgid "Insufficient permissions to share document %(id)s."
 msgstr "Nedovoljne dozvole za deljenje dokumenta %(id)s."
 
-#: documents/views.py:4216
+#: documents/views.py:4273
 msgid "Bundle is already being processed."
 msgstr "Paket se već obrađuje."
 
-#: documents/views.py:4276
+#: documents/views.py:4333
 msgid "The share link bundle is still being prepared. Please try again later."
 msgstr "Paket linkova za deljenje se još uvek priprema. Molimo pokušajte ponovo kasnije."
 
-#: documents/views.py:4286
+#: documents/views.py:4343
 msgid "The share link bundle is unavailable."
 msgstr "Paket linkova za deljenje nije dostupan."
 
